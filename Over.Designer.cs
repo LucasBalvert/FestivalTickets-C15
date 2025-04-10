@@ -46,7 +46,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(129, 0);
+            this.label1.Location = new System.Drawing.Point(129, -1);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(326, 39);
             this.label1.TabIndex = 5;
@@ -142,7 +142,7 @@
             this.button_afsluiten.Name = "button_afsluiten";
             this.button_afsluiten.Size = new System.Drawing.Size(104, 33);
             this.button_afsluiten.TabIndex = 14;
-            this.button_afsluiten.Text = "Afsluiten";
+            this.button_afsluiten.Text = "Sluiten";
             this.button_afsluiten.UseVisualStyleBackColor = false;
             this.button_afsluiten.Click += new System.EventHandler(this.button1_Click);
             // 

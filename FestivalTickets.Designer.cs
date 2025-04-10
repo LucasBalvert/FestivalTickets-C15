@@ -68,6 +68,8 @@
             this.groupBox_klasse = new System.Windows.Forms.GroupBox();
             this.groupBox_verzendmethode = new System.Windows.Forms.GroupBox();
             this.label_resultaat = new System.Windows.Forms.Label();
+            this.button_reset = new System.Windows.Forms.Button();
+            this.label_prijs = new System.Windows.Forms.Label();
             this.groupBox_dag.SuspendLayout();
             this.groupBox_klasse.SuspendLayout();
             this.groupBox_verzendmethode.SuspendLayout();
@@ -79,10 +81,10 @@
             this.button_reserveerTickets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_reserveerTickets.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_reserveerTickets.ForeColor = System.Drawing.Color.Black;
-            this.button_reserveerTickets.Location = new System.Drawing.Point(390, 436);
+            this.button_reserveerTickets.Location = new System.Drawing.Point(388, 438);
             this.button_reserveerTickets.Name = "button_reserveerTickets";
             this.button_reserveerTickets.Size = new System.Drawing.Size(104, 45);
-            this.button_reserveerTickets.TabIndex = 16;
+            this.button_reserveerTickets.TabIndex = 12;
             this.button_reserveerTickets.Text = "RESERVEER TICKETS";
             this.button_reserveerTickets.UseVisualStyleBackColor = false;
             this.button_reserveerTickets.Click += new System.EventHandler(this.button_reserveerTickets_Click);
@@ -90,10 +92,10 @@
             // textBox_naam
             // 
             this.textBox_naam.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox_naam.Location = new System.Drawing.Point(121, 75);
+            this.textBox_naam.Location = new System.Drawing.Point(176, 74);
             this.textBox_naam.Name = "textBox_naam";
             this.textBox_naam.Size = new System.Drawing.Size(179, 20);
-            this.textBox_naam.TabIndex = 17;
+            this.textBox_naam.TabIndex = 0;
             // 
             // label_naam
             // 
@@ -344,10 +346,10 @@
             "118",
             "119",
             "120"});
-            this.comboBox_leeftijd.Location = new System.Drawing.Point(121, 207);
+            this.comboBox_leeftijd.Location = new System.Drawing.Point(176, 207);
             this.comboBox_leeftijd.Name = "comboBox_leeftijd";
             this.comboBox_leeftijd.Size = new System.Drawing.Size(121, 21);
-            this.comboBox_leeftijd.TabIndex = 51;
+            this.comboBox_leeftijd.TabIndex = 3;
             // 
             // label_leeftijd
             // 
@@ -362,7 +364,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(227, 9);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(386, 33);
@@ -385,7 +387,7 @@
             this.checkBox_zaterdag.Location = new System.Drawing.Point(6, 13);
             this.checkBox_zaterdag.Name = "checkBox_zaterdag";
             this.checkBox_zaterdag.Size = new System.Drawing.Size(69, 17);
-            this.checkBox_zaterdag.TabIndex = 55;
+            this.checkBox_zaterdag.TabIndex = 4;
             this.checkBox_zaterdag.Text = "Zaterdag";
             this.checkBox_zaterdag.UseVisualStyleBackColor = true;
             // 
@@ -395,7 +397,7 @@
             this.checkBox_zondag.Location = new System.Drawing.Point(81, 13);
             this.checkBox_zondag.Name = "checkBox_zondag";
             this.checkBox_zondag.Size = new System.Drawing.Size(63, 17);
-            this.checkBox_zondag.TabIndex = 56;
+            this.checkBox_zondag.TabIndex = 5;
             this.checkBox_zondag.Text = "Zondag";
             this.checkBox_zondag.UseVisualStyleBackColor = true;
             // 
@@ -405,7 +407,7 @@
             this.radioButton_normaal.Location = new System.Drawing.Point(6, 18);
             this.radioButton_normaal.Name = "radioButton_normaal";
             this.radioButton_normaal.Size = new System.Drawing.Size(64, 17);
-            this.radioButton_normaal.TabIndex = 57;
+            this.radioButton_normaal.TabIndex = 6;
             this.radioButton_normaal.TabStop = true;
             this.radioButton_normaal.Text = "Normaal";
             this.radioButton_normaal.UseVisualStyleBackColor = true;
@@ -416,7 +418,7 @@
             this.radioButton_VIP.Location = new System.Drawing.Point(102, 19);
             this.radioButton_VIP.Name = "radioButton_VIP";
             this.radioButton_VIP.Size = new System.Drawing.Size(42, 17);
-            this.radioButton_VIP.TabIndex = 58;
+            this.radioButton_VIP.TabIndex = 7;
             this.radioButton_VIP.TabStop = true;
             this.radioButton_VIP.Text = "VIP";
             this.radioButton_VIP.UseVisualStyleBackColor = true;
@@ -453,10 +455,10 @@
             "15",
             "20",
             "25"});
-            this.comboBox_muntjes.Location = new System.Drawing.Point(179, 347);
+            this.comboBox_muntjes.Location = new System.Drawing.Point(176, 348);
             this.comboBox_muntjes.Name = "comboBox_muntjes";
             this.comboBox_muntjes.Size = new System.Drawing.Size(121, 21);
-            this.comboBox_muntjes.TabIndex = 61;
+            this.comboBox_muntjes.TabIndex = 8;
             // 
             // label_verzendmethode
             // 
@@ -474,7 +476,7 @@
             this.radioButton_email.Location = new System.Drawing.Point(9, 15);
             this.radioButton_email.Name = "radioButton_email";
             this.radioButton_email.Size = new System.Drawing.Size(54, 17);
-            this.radioButton_email.TabIndex = 63;
+            this.radioButton_email.TabIndex = 9;
             this.radioButton_email.TabStop = true;
             this.radioButton_email.Text = "E-Mail";
             this.radioButton_email.UseVisualStyleBackColor = true;
@@ -485,7 +487,7 @@
             this.radioButton_post.Location = new System.Drawing.Point(79, 15);
             this.radioButton_post.Name = "radioButton_post";
             this.radioButton_post.Size = new System.Drawing.Size(91, 17);
-            this.radioButton_post.TabIndex = 64;
+            this.radioButton_post.TabIndex = 10;
             this.radioButton_post.TabStop = true;
             this.radioButton_post.Text = "Post (+ €2,95)";
             this.radioButton_post.UseVisualStyleBackColor = true;
@@ -516,10 +518,10 @@
             "8",
             "9",
             "10"});
-            this.comboBox_tickets.Location = new System.Drawing.Point(179, 449);
+            this.comboBox_tickets.Location = new System.Drawing.Point(176, 449);
             this.comboBox_tickets.Name = "comboBox_tickets";
             this.comboBox_tickets.Size = new System.Drawing.Size(121, 21);
-            this.comboBox_tickets.TabIndex = 66;
+            this.comboBox_tickets.TabIndex = 11;
             // 
             // label22
             // 
@@ -543,24 +545,26 @@
             // textBox_email
             // 
             this.textBox_email.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox_email.Location = new System.Drawing.Point(121, 122);
+            this.textBox_email.Location = new System.Drawing.Point(176, 122);
             this.textBox_email.Name = "textBox_email";
             this.textBox_email.Size = new System.Drawing.Size(179, 20);
-            this.textBox_email.TabIndex = 49;
+            this.textBox_email.TabIndex = 1;
+            this.textBox_email.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_email_KeyPress);
             // 
             // textBox_emailControle
             // 
             this.textBox_emailControle.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox_emailControle.Location = new System.Drawing.Point(170, 171);
+            this.textBox_emailControle.Location = new System.Drawing.Point(176, 169);
             this.textBox_emailControle.Name = "textBox_emailControle";
+            this.textBox_emailControle.ShortcutsEnabled = false;
             this.textBox_emailControle.Size = new System.Drawing.Size(179, 20);
-            this.textBox_emailControle.TabIndex = 69;
+            this.textBox_emailControle.TabIndex = 2;
             // 
             // groupBox_dag
             // 
             this.groupBox_dag.Controls.Add(this.checkBox_zaterdag);
             this.groupBox_dag.Controls.Add(this.checkBox_zondag);
-            this.groupBox_dag.Location = new System.Drawing.Point(121, 250);
+            this.groupBox_dag.Location = new System.Drawing.Point(176, 250);
             this.groupBox_dag.Name = "groupBox_dag";
             this.groupBox_dag.Size = new System.Drawing.Size(157, 35);
             this.groupBox_dag.TabIndex = 70;
@@ -571,7 +575,7 @@
             // 
             this.groupBox_klasse.Controls.Add(this.radioButton_normaal);
             this.groupBox_klasse.Controls.Add(this.radioButton_VIP);
-            this.groupBox_klasse.Location = new System.Drawing.Point(121, 291);
+            this.groupBox_klasse.Location = new System.Drawing.Point(176, 291);
             this.groupBox_klasse.Name = "groupBox_klasse";
             this.groupBox_klasse.Size = new System.Drawing.Size(157, 38);
             this.groupBox_klasse.TabIndex = 71;
@@ -582,7 +586,7 @@
             // 
             this.groupBox_verzendmethode.Controls.Add(this.radioButton_email);
             this.groupBox_verzendmethode.Controls.Add(this.radioButton_post);
-            this.groupBox_verzendmethode.Location = new System.Drawing.Point(179, 397);
+            this.groupBox_verzendmethode.Location = new System.Drawing.Point(176, 397);
             this.groupBox_verzendmethode.Name = "groupBox_verzendmethode";
             this.groupBox_verzendmethode.Size = new System.Drawing.Size(179, 38);
             this.groupBox_verzendmethode.TabIndex = 72;
@@ -599,12 +603,34 @@
             this.label_resultaat.Text = "(hier komt de reservering text)";
             this.label_resultaat.UseMnemonic = false;
             // 
+            // button_reset
+            // 
+            this.button_reset.BackColor = System.Drawing.Color.LightCoral;
+            this.button_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_reset.Location = new System.Drawing.Point(515, 438);
+            this.button_reset.Name = "button_reset";
+            this.button_reset.Size = new System.Drawing.Size(98, 45);
+            this.button_reset.TabIndex = 13;
+            this.button_reset.Text = "RESET";
+            this.button_reset.UseVisualStyleBackColor = false;
+            this.button_reset.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label_prijs
+            // 
+            this.label_prijs.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_prijs.Location = new System.Drawing.Point(662, 397);
+            this.label_prijs.Name = "label_prijs";
+            this.label_prijs.Size = new System.Drawing.Size(163, 73);
+            this.label_prijs.TabIndex = 75;
+            // 
             // FestivalTickets
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(880, 498);
+            this.Controls.Add(this.label_prijs);
+            this.Controls.Add(this.button_reset);
             this.Controls.Add(this.label_resultaat);
             this.Controls.Add(this.groupBox_verzendmethode);
             this.Controls.Add(this.groupBox_klasse);
@@ -642,7 +668,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FestivalTickets";
-            this.Text = "-";
+            this.Text = "Festivaltickets";
             this.groupBox_dag.ResumeLayout(false);
             this.groupBox_dag.PerformLayout();
             this.groupBox_klasse.ResumeLayout(false);
@@ -695,5 +721,7 @@
         private System.Windows.Forms.GroupBox groupBox_klasse;
         private System.Windows.Forms.GroupBox groupBox_verzendmethode;
         private System.Windows.Forms.Label label_resultaat;
+        private System.Windows.Forms.Button button_reset;
+        private System.Windows.Forms.Label label_prijs;
     }
 }

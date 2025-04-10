@@ -62,6 +62,17 @@ namespace FestivalTickets_C15
 
         private void afsluitenToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            DialogResult resultaat = MessageBox.Show(
+                "Weet u zeker dat u het programma wilt afsluiten?",
+                "Afsluiten",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning
+            );
+
+            if (resultaat == DialogResult.No)
+            {
+                return;
+            }
             Close();
         }
 

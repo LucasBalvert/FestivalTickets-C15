@@ -16,7 +16,7 @@ namespace FestivalTickets_C15
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FestivalTickets());
+            Application.Run(new StartVenster());
         }
     }
 }
